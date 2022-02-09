@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index.js", 
-    "dev": "node index.js" 
+    "start": "node index.js",
+    "dev": "node index.js"
   },
   "repository": {
     "type": "git",
@@ -17,5 +17,10 @@
   "bugs": {
     "url": "https://github.com/rbenner2/PROG8110Assignment1b/issues"
   },
-  "homepage": "https://github.com/rbenner2/PROG8110Assignment1b#readme"
+  "homepage": "https://github.com/rbenner2/PROG8110Assignment1b#readme",
+  "dependencies": {
+    "express": "^4.17.2",
+    "socket.io": "^4.4.1",
+    "underscore": "^1.13.2"
+  }
 }
